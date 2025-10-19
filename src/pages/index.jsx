@@ -1,0 +1,5 @@
+export {default as HomeLayoutPage_36} from './HomeLayoutPage_36.jsx'
+export {default as HomePage_36} from './HomePage_36.jsx'
+export {default as BlogStaticPage_36} from './BlogStaticPAge_36.jsx'
+export {default as BlogLocalJsonPage_36} from './BlogLocalJsonPage_36.jsx'
+export {default as BlogNodePage_36} from './BlogNodePage_36.jsx'
