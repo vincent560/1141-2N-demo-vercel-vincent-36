@@ -65,10 +65,12 @@ const Navbar_36 = () => {
               <Link to="#">Demo +</Link>
               <div className="sub-menu-wrapper">
                 <ul className="sub-menu">
+                  <li className="menu-item"><Link to="/booklist_36">W2-BookList_36</Link></li>
                   <li className="menu-item"><Link to="/static_36">W3-BlogStatic_36</Link></li>
                   <li className="menu-item"><Link to="/localjson_36">W3-BlogLocalJson_36</Link></li>
                   <li className="menu-item"><Link to="/node_36">@4-BlogNode_36</Link></li>
-                  <li className="menu-item"><Link to="#">W5-BlogSupa_36</Link></li>
+                  <li className="menu-item"><Link to="/supa_36">W5-BlogSupa_36</Link></li>
+                  <li className="menu-item"><Link to="/localjson2_36">W7-BlogLocalJson2_36</Link></li>
                 </ul>
               </div>
             </li>
@@ -141,6 +143,7 @@ const Navbar_36 = () => {
                   <li className="menu-item"><Link to="/localjson_36">W3-BlogLocalJson_36</Link></li>
                   <li className="menu-item"><Link to="#">@4-BlogNode_36</Link></li>
                   <li className="menu-item"><Link to="#">W5-BlogSupa_36</Link></li>
+                  <li className="menu-item"><Link to="/localjson2_36">W7-BlogLocalJson2_36</Link></li>
                 </ul>
               </div>
             </li>
