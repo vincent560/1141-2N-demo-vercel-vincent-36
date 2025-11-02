@@ -1,7 +1,7 @@
 import { FaGlobe } from "react-icons/fa6";
 import { FaMugSaucer } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-const Blog2_36 = ({id, img, category, title, descrip}) => {
+const Blog2_36 = ({id, img, category, title, descrip, removeItem}) => {
 
 return (
             <article key={id} className="blog">
@@ -20,7 +20,7 @@ return (
             <p>{descrip}</p>
             <div className='flex justify-between items-center'>
               <Link to="#">read more</Link>
-              <button type="button" className='text-red-700 bg-red-100 capitalize px-1 py-1 hover:bg-red-300 rounded' >delete</button>
+              <button type="button" className='text-red-700 bg-red-100 capitalize px-1 py-1 hover:bg-red-300 rounded' onClick={() => removeItem(id)}>delete</button>
             </div>
           </div>
         </article>
