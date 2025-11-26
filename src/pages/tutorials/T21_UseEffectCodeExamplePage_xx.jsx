@@ -7,7 +7,7 @@ const T21_UseEffectCodeExamplePage_36 = () => {
     <Wrapper>
       <div className='container'>
         <h4>Tutorial T21_36</h4>
-        <h5>Hsingtai Chung, 123456789</h5>
+        <h5>H何柏霆, 213410136</h5>
         <T21_36 />
       </div>
     </Wrapper>
